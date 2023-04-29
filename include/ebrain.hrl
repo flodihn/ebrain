@@ -1,0 +1,2 @@
+-record(axon, {owner_neuron, dendrites = []}).
+-record(dendrite, {connected_neuron, owner_neuron, synaptic_plasticity}).

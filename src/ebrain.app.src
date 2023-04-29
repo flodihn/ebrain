@@ -1,0 +1,12 @@
+{application, ebrain,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ebrain_app, []}},
+  {env, []}
+ ]}.
